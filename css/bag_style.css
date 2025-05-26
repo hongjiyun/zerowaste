@@ -1,0 +1,158 @@
+main{
+    width: 1400px; height: 2000px;
+    margin: 0 auto;
+
+}
+
+
+/* shopping_menu */
+.shopping_menu{
+    width: 1400px; height: 250px;
+    padding-top: 60px;
+    box-sizing: border-box;
+}
+
+.shopping_text{
+ width: 100%; height: 59px;
+ font-size: 24px;
+ font-weight: 500;
+ margin-left: 10px;
+
+}
+
+.shopping_nav{
+    width: 100%; height: 60px;
+    font-size: 22px;
+    margin-left: 10px;
+   
+
+}
+.shopping_nav>ul{
+    display: flex;
+    padding-right: 20px;
+    font-size: 20px;
+    color: black;
+
+}
+
+
+.shopping_nav li{
+    padding-right: 40px;
+}
+
+.shopping_nav li>a{
+    color: #000;
+}
+
+.select>a{
+    background-color:#caaca2;
+}
+
+
+
+
+.line_box{
+    width: 100%; height: 25px;
+    border: 2px solid black;
+    border-bottom : none;
+    border-left: none;
+    border-right: none;
+}
+
+/*  */
+.uplode_text{
+    width: 100%; height: 46px;
+    font-size: 16pt;
+    display: flex;
+    justify-content: end;
+
+}
+
+.uplode_text li{
+    color: #aaa;
+}
+
+.uplode_text li>a{
+    color: #aaa;
+}
+
+
+.login{
+    width: 1400px; height: 430px;
+    margin: auto;
+    margin-top: 90px;
+    background-color:#caaca2;
+    padding: 30px;
+    font-weight: 500;
+    box-sizing: border-box;
+}
+
+.login>p{
+    text-align: center;
+    font-size: 24px;
+}
+
+.product_information{
+    width: 90%; height: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+
+.email_password_text{
+    width: 700px; height: 100px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.email_password_text>div{
+    font-size: 22px;
+    border: 1px solid #000;
+  
+
+}
+.email_password_text a{
+    color: #5d5b5b;
+}
+
+.email_password_text>.email_text{
+    border-bottom: none;
+}
+
+
+.login_regist_find_btn{
+    width: 700px; height: 150px;
+    margin: 0 auto;
+    font-size: 20px;
+    margin-top: 10px;
+
+}
+
+.login_regist_find_btn a{
+    color: #000;
+}
+
+
+.login_regist_find_btn>.login_btn{
+    width: 100%; height: 50px;
+    text-align: center;
+    margin-bottom: 40px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+.regist_find_btn{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -30px;
+}
+
+
+footer{
+    margin-top: -1100px;
+}

@@ -1,0 +1,115 @@
+main{
+    width: 1400px; height: 2000px;
+    margin: 0 auto;
+
+}
+
+
+
+
+.shopping_menu{
+    width: 1400px; height: 250px;
+    padding-top: 60px;
+    box-sizing: border-box;
+}
+
+.shopping_text{
+ width: 100%; height: 59px;
+ font-size: 24px;
+ font-weight: 500;
+ margin-left: 10px;
+
+}
+
+.shopping_nav{
+    width: 100%; height: 60px;
+    font-size: 22px;
+    margin-left: 10px;
+   
+
+}
+.shopping_nav>ul{
+    display: flex;
+    padding-right: 20px;
+    font-size: 20px;
+    color: black;
+
+}
+
+
+.shopping_nav li{
+    padding-right: 40px;
+}
+
+.shopping_nav li>a{
+    color: #000;
+}
+
+
+.line_box{
+    width: 100%; height: 25px;
+    border: 2px solid black;
+    border-bottom : none;
+    border-left: none;
+    border-right: none;
+}
+
+
+/*  */
+.uplode_text{
+    width: 100%; height: 46px;
+    font-size: 16pt;
+    display: flex;
+    justify-content: end;
+
+}
+
+.uplode_text li{
+    color: #aaa;
+}
+
+.uplode_text li>a{
+    color: #aaa;
+}
+
+
+
+
+
+
+/* <!-- about --> */
+.company_name_box{
+    width: 1400px; height: 105px;
+    text-align: center;
+    font-size: 40px;
+    padding: 20px 0;
+    box-sizing: border-box;
+    font-weight: 500;
+    margin-top: 29px;
+    
+}
+
+.about_box{
+    width: 1400px; height: 1684px;
+    margin: 0 auto;
+    margin-top: 43px;
+}
+
+.company_mean_box{
+    width: 928px; height: 792px;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+.company_mean_box>img{
+    width: 100%; height: 100%;
+}
+.company_goal_box{
+    width: 1400px; height: 831px;
+    margin: 0 auto;
+    margin-top: 61px;
+}
+
+footer{
+    margin-top: 400px;
+}

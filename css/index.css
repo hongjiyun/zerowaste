@@ -1,0 +1,151 @@
+main{
+    width: 1400px; 
+    margin: 0 auto;
+  
+  }
+  
+  
+  
+ 
+  
+  /* ad_content */
+  .ad_content{
+    padding-top: 20px;
+    padding-bottom: 50px;
+  }
+  
+  .slide_ad_img{
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  
+  
+  /* left_right_btn */
+  .left_right_btn{
+    width: 50px; 
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-around;
+    
+  }
+  
+  .left_right_btn a{
+    font-size: 40px;
+    color: #000;
+    font-weight: 300;
+  }
+  
+  .slide_product{
+    width: 1400px; height: 660px;
+    margin-top: 150px;
+  }
+  
+
+
+  /* best product */
+  .slide_product>h2{
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-size: 20px;
+  }
+
+.img_text_four_box{
+    width: 1400px; 
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+
+}
+
+.img_text_four_box>figure>.product>h3{
+  font-size: 18px;
+}
+
+.text_box{
+    text-align: center;
+    margin-top: 30px;
+    
+}
+
+
+/* img_text_four_box figure */
+
+figure{
+    margin-bottom: 20px;
+}
+
+figure img{
+    width: 338px; height: 322px;
+    margin-bottom: 20px;
+}
+
+.product>h3{
+    color: #111;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.product>.price{
+font-size: 14px;
+color: #999;
+text-decoration: line-through;
+}
+
+.product>h4{
+color: #363636;
+margin-bottom: 10px;
+font-size: 16px;
+font-weight: 500;
+}
+
+.promotion{
+display: flex;
+
+}
+.promotion>.new{
+background-color: yellow;
+width: 60px;
+height: 15px;
+font-size: 10px;
+text-align: center;
+margin-right: 3px;
+}
+
+
+.promotion>.best{
+background-color: hotpink;
+width: 60px;
+height: 15px;
+font-size: 10px;
+text-align: center;
+color: #fff;
+margin-right: 3px;
+}
+
+.promotion>.order{
+background-color: blueviolet;
+width: 60px;
+height: 15px;
+font-size: 10px;
+text-align: center;
+color: #fff;
+margin-right: 3px;
+}
+
+
+.color{
+display: flex;
+}
+
+
+.ad_content2{
+    width: 1400px; 
+    margin-top: 150px;
+}
+
+footer{
+  margin-top: -80px;
+}

@@ -1,0 +1,95 @@
+main{
+    width: 1400px; 
+    margin: 0 auto;
+
+}
+
+
+
+
+
+
+.customer_box{
+    width: 1400px; 
+    padding-top: 150px;
+    padding-bottom: 120px;
+    box-sizing: border-box;
+}
+
+.customer_box>div{
+    font-size: 28px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.customor_menu_bar{
+    width: 700px; height: 50px;
+    display:flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    font-size: 22px;
+    
+}
+
+.customor_menu_bar a {
+    color: #000;
+}
+
+.line_box{
+    width: 100%; height: 25px;
+    border: 2px solid black;
+    border-bottom : none;
+    border-left: none;
+    border-right: none;
+    margin-top: 20px;
+    margin-bottom: -25px;
+}
+
+
+.notice_box_text{
+    width: 1400px; height: 80px;
+    display: flex;
+    font-size: 25px;
+
+}
+
+.notice_box_text>div{
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+ 
+}
+
+
+.notice_box_text a{
+    color: #000;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+
+.number{
+    flex: 1;
+}
+
+.title{
+    flex: 5;
+}
+
+.time{
+    flex: 1;
+
+}
+
+.inquiry{
+    flex: 1;
+}
+
+.notice_box>.text4, .text3{
+    background-color:rgb(230, 230, 230);
+}
+
