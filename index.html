@@ -1,33 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./css/common.css">
     <link rel="stylesheet" href="./css/index.css">
+
 </head>
+
 <body>
     <header>
-        <h1><a href="">
+        <h1 class="header_logo"><a href="">
                 <img src="./img/./header/logo.png" alt="지구와 나 로고" width="180px" height="40px">
             </a>
         </h1>
 
         <article>
-            <div class="search_btn">
+            <div class="search_btn"> 
                 <a href=""><img src="./img/./header/serch.png" width="25px" height="30px"></a>
             </div>
         </article>
 
         <ul class="u_nav">
-            <a href="./login.html">
-                <li class="login_btn">로그인</li>
-            </a>
-
-            <a href="./regist.html">
-                <li class="signup_btn">회원가입</li>
-            </a>
+            <li class="login_btn"><a href="./login.html">로그인</a></li>
+            <li class="signup_btn"><a href="./regist.html">회원가입</a></li>
         </ul>
 
     </header>
@@ -51,40 +50,40 @@
                     </ul>
 
                     <!-- lnb -->
-                <div class="lnb">
-                   
-                    <ul class="lnb_text inb_kitchen">
-                        <li><a href="./product.html">주방용품</a></li>
-                        <li><a href="./product_bath.html">욕실용품</a></li>
-                        <li><a href="./product_Interior.html">인테리어/소품</a></li>
-                        <li><a href="./product_clothing_goods.html">의류잡화</a></li>
-                        <li><a href="./product_cosmetics.html">화장품</a></li>
-                        <li><a href="./product_food.html">식품</a></li>
-                    </ul>
-                    <ul class="lnb_text inb_best">
-                        <li><a href="./product_best.html">베스트상품</a></li>
-                        <li><a href="./product_new.html">신상품</a></li>
-                        <li><a href="./product_recommend.html">선물 추천</a></li>
-                    </ul>
-                    <ul class=" lnb_text lnb_empty">
-                        <li><a href=""></a></li>
-                    </ul>
-                    <ul class=" lnb_text lnb_about">
-                        <li><a href="./about.html">회사소개</a></li>
-                        <li><a href="./zerowaste.html">제로웨이스트란</a></li>
-                    </ul>
+                    <div class="lnb">
 
-                    <ul class="lnb_text lnb_customer">
-                        <li><a href="./notice.html">공지사항 </a></li>
-                        <li><a href="">FAQ </a></li>
-                        <li><a href="">1:1문의 </a></li>
-                        <li><a href="">이용약관 </a></li>
-                    </ul>
-                </div>
+                        <ul class="lnb_text inb_kitchen">
+                            <li><a href="./product.html">주방용품</a></li>
+                            <li><a href="./product_bath.html">욕실용품</a></li>
+                            <li><a href="./product_Interior.html">인테리어/소품</a></li>
+                            <li><a href="./product_clothing_goods.html">의류잡화</a></li>
+                            <li><a href="./product_cosmetics.html">화장품</a></li>
+                            <li><a href="./product_food.html">식품</a></li>
+                        </ul>
+                        <ul class="lnb_text inb_best">
+                            <li><a href="./product_best.html">베스트상품</a></li>
+                            <li><a href="./product_new.html">신상품</a></li>
+                            <li><a href="./product_recommend.html">선물 추천</a></li>
+                        </ul>
+                        <ul class=" lnb_text lnb_empty">
+                            <li><a href=""></a></li>
+                        </ul>
+                        <ul class=" lnb_text lnb_about">
+                            <li><a href="./about.html">회사소개</a></li>
+                            <li><a href="./zerowaste.html">제로웨이스트란</a></li>
+                        </ul>
+
+                        <ul class="lnb_text lnb_customer">
+                            <li><a href="./notice.html">공지사항 </a></li>
+                            <li><a href="">FAQ </a></li>
+                            <li><a href="">1:1문의 </a></li>
+                            <li><a href="">이용약관 </a></li>
+                        </ul>
+                    </div>
             </div>
-                </nav>
+            </nav>
 
-                
+
 
             <ul class="bag_maypage_btn">
                 <li class="bag_btn">
@@ -92,39 +91,33 @@
                 </li>
 
                 <li class="mypage_btn">
-                    <a href="./login.html"><img src="./img/./header/mypage.png" alt=""width="65x" height="75px"></a>
+                    <a href="./login.html"><img src="./img/./header/mypage.png" alt="" width="65x" height="75px"></a>
                 </li>
 
             </ul>
         </section>
 
 
-        <section class="ad_content">
-            <ul class="slide_ad_img">
-                <li><a href=""><img src="./img/ad_content/zero_waste_poster.jpg" alt="" width="457px" height="457px"></a></li>
-                <li><a href="./discount_ad.html"><img src="./img/ad_content/discount_coupon.png" alt="" width="457px" height="457px"></a></li>
-                <li><a href=""><img src="./img/ad_content/free_shipping.jpg" alt="" width="457px" height="457px"></a></li>
-            </ul>
-
-
-            <!-- nav  left_right_btn-->
-            <nav class="left_right_btn">
-                <div class="left_slide_btn"><a href="">-</a></div>
-                <div class="right_slide_btn"><a href="">-</a></div>
-            </nav>
-        </section>
-
-
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><a href=""><img src="./img/ad_content/discount_coupon.png" alt=""></a></div>
+                <div class="swiper-slide"><a href=""><img src="./img/ad_content/free_shipping.jpg" alt=""></a></div>
+                <div class="swiper-slide"><a href=""><img src="./img/ad_content/zero_waste_poster.jpg" alt=""></a></div>
+                <div class="swiper-slide"><a href=""><img src="./img/ad_content/discount_coupon.png" alt=""></a></div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
         <!-- section slide_product best -->
         <section class="slide_product">
             <h2>베스트상품</h2>
 
+            <h3><a href="">더보기</a></h3>
             <article class="img_text_four_box">
 
                 <figure>
                     <a href="./product_detail_page.html">
-                        <div>
-                            <img src="./img/product_img/best/beeswax_wrap.jpg" alt="광목밀랍랩" width="339px" height="339px">
+                        <div class="product_img_box">
+                            <img src="./img/product_img/best/beeswax_wrap.jpg" alt="광목밀랍랩">
                         </div>
                         <figcaption class="product">
                             <h3>광목밀랍랩</h3>
@@ -140,8 +133,8 @@
 
                 <figure>
                     <a href="">
-                        <div>
-                            <img src="./img/product_img/best/perfume_bam.jpg" alt="퍼품밤" width="339px" height="339px">
+                      <div class="product_img_box">
+                            <img src="./img/product_img/best/perfume_bam.jpg" alt="퍼품밤" >
                         </div>
                         <figcaption class="product">
                             <h3>퍼품밤</h3>
@@ -157,8 +150,8 @@
 
                 <figure>
                     <a href="">
-                        <div>
-                            <img src="./img/product_img/best/drink_carrier.jpg" alt="음료 텀블러백" width="339px" height="339px">
+                        <div class="product_img_box">
+                            <img src="./img/product_img/best/drink_carrier.jpg" alt="음료 텀블러백">
                         </div>
                         <figcaption class="product">
                             <h3>음료 텀블러백</h3>
@@ -174,25 +167,22 @@
 
                 <figure>
                     <a href="">
-                        <div>
-                            <img src="./img/product_img/best/carrot_soap.jpg" alt="제주 당근 비누" width="339px" height="339px">
+                        <div class="product_img_box">
+                            <img src="./img/product_img/best/carrot_soap.jpg" alt="제주 당근 비누" >
                         </div>
                         <figcaption class="product">
                             <h3>제주 당근 비누</h3>
                             <h4>7,000원</h4>
-                             <ul class="promotion">
+                            <ul class="promotion">
                                 <li class="new">NEW</li>
                                 <li class="best">BEST</li>
                             </ul>
                         </figcaption>
-                     </a>
-                  </figure>
-             </article>
+                    </a>
+                </figure>
+            </article>
 
-                <nav class="left_right_btn">
-                    <div class="left_slide_btn"><a href="">-</a></div>
-                    <div class="right_slide_btn"><a href="">-</a></div>
-                </nav>
+           
         </section>
 
 
@@ -200,7 +190,8 @@
         <!-- section slide_product new -->
         <section class="slide_product">
             <h2>신상품</h2>
-
+            <h3><a href="">더보기</a></h3>
+            
             <article class="img_text_four_box">
 
                 <figure>
@@ -211,7 +202,7 @@
                         <figcaption class="product">
                             <h3>코튼 니트 가디건</h3>
                             <h4>189,000원</h4>
-                             <ul class="promotion">
+                            <ul class="promotion">
                                 <li class="new">NEW</li>
                                 <li class="best">BEST</li>
                                 <li class="order">주문폭주</li>
@@ -223,12 +214,13 @@
                 <figure>
                     <a href="">
                         <div>
-                            <img src="./img/product_img/new/ringupcycle_athleisure_bag.jpg" alt="업사이클링 에슬레저백" width="339px" height="339px">
+                            <img src="./img/product_img/new/ringupcycle_athleisure_bag.jpg" alt="업사이클링 에슬레저백"
+                                width="339px" height="339px">
                         </div>
                         <figcaption class="product">
                             <h3>업사이클링 에슬레저백</h3>
                             <h4>17,600원</h4>
-                             <ul class="promotion">
+                            <ul class="promotion">
                                 <li class="new">NEW</li>
                                 <li class="order">주문폭주</li>
                             </ul>
@@ -237,14 +229,16 @@
                 </figure>
 
                 <figure>
+                    
                     <a href="">
                         <div>
-                            <img src="./img/product_img/new/dog_foot_soap.jpg" alt="반려건 발비누 세트" width="339px" height="339px">
+                            <img src="./img/product_img/new/dog_foot_soap.jpg" alt="반려건 발비누 세트" width="339px"
+                                height="339px">
                         </div>
                         <figcaption class="product">
                             <h3>반려건 발비누 세트</h3>
                             <h4>6,300원</h4>
-                             <ul class="promotion">
+                            <ul class="promotion">
                                 <li class="new">NEW</li>
                                 <li class="best">BEST</li>
                             </ul>
@@ -255,57 +249,54 @@
                 <figure>
                     <a href="">
                         <div>
-                            <img src="./img/product_img/new/burdock_tea.jpeg" alt="유기농 우엉차" width="339px" height="339px">
+                            <img src="./img/product_img/new/burdock_tea.jpeg" alt="유기농 우엉차" width="339px"
+                                height="339px">
                         </div>
                         <figcaption class="product">
                             <h3>유기농 우엉차</h3>
                             <h4>12,000원</h4>
-                             <ul class="promotion">
+                            <ul class="promotion">
                                 <li class="new">NEW</li>
                             </ul>
                         </figcaption>
-                     </a>
-                  </figure>
-             </article>
+                    </a>
+                </figure>
+            </article>
 
-                <nav class="left_right_btn">
-                    <div class="left_slide_btn"><a href="">-</a></div>
-                    <div class="right_slide_btn"><a href="">-</a></div>
-            </nav>
+            
         </section>
 
 
 
         <!-- ad_content2 -->
         <section class="ad_content2">
-            <ul class="slide_ad_img">
-                <li><a href="./product_cosmetics.html"><img src="./img/product_img/ad_product/beauty.png" alt="" width="690px" height="462px"></a></li>
+            <h3><a href="">더보기</a></h3>
 
-                <li><a href="./product.html"><img src="./img/product_img/ad_product/dish_detergent_ad.png" alt="" width="690px" height="462px"></a></li>
-         
+            <ul class="slide_ad_img">
+                <li><a href="./product_cosmetics.html"><img src="./img/product_img/ad_product/beauty.png" alt=""
+                            ></a></li>
+
+                <li><a href="./product.html"><img src="./img/product_img/ad_product/dish_detergent_ad.png" alt=""
+                            ></a></li>
 
             </ul>
-
-
-            <!-- nav  left_right_btn-->
-            <nav class="left_right_btn">
-                <div class="left_slide_btn"><a href="">-</a></div>
-                <div class="right_slide_btn"><a href="">-</a></div>
-            </nav>
         </section>
 
 
 
-         <!-- section slide_product recomend -->
-         <section class="slide_product">
+        <!-- section slide_product recomend -->
+        <section class="slide_product">
             <h2>추천 상품</h2>
+            <h3><a href="">더보기</a></h3>
+
 
             <article class="img_text_four_box">
 
                 <figure>
                     <a href="./product_detail_page3.html">
                         <div>
-                            <img src="./img/product_img/recommend/diffuser.jpg" alt="디퓨저 세트" width="339px" height="339px">
+                            <img src="./img/product_img/recommend/diffuser.jpg" alt="디퓨저 세트" width="339px"
+                                height="339px">
                         </div>
                         <figcaption class="product">
                             <h3>디퓨저 세트</h3>
@@ -322,7 +313,8 @@
                 <figure>
                     <a href="">
                         <div>
-                            <img src="./img/product_img/recommend/ivory_3pouch.jpg" alt="크리미 파우치 4세트" width="339px" height="339px">
+                            <img src="./img/product_img/recommend/ivory_3pouch.jpg" alt="크리미 파우치 4세트" width="339px"
+                                height="339px">
                         </div>
                         <figcaption class="product">
                             <h3>크리미 파우치 4세트</h3>
@@ -339,7 +331,8 @@
                 <figure>
                     <a href="">
                         <div>
-                            <img src="./img/product_img/recommend/waxback_s.jpg" alt="밀랍백 S사이즈" width="339px" height="339px">
+                            <img src="./img/product_img/recommend/waxback_s.jpg" alt="밀랍백 S사이즈" width="339px"
+                                height="339px">
                         </div>
                         <figcaption class="product">
                             <h3>밀랍백 S사이즈</h3>
@@ -355,7 +348,8 @@
                 <figure>
                     <a href="">
                         <div>
-                            <img src="./img/product_img/recommend/plastic_shark_keyring.jpg" alt="귀상어 업사이클링 키링" width="339px" height="339px">
+                            <img src="./img/product_img/recommend/plastic_shark_keyring.jpg" alt="귀상어 업사이클링 키링"
+                                width="339px" height="339px">
                         </div>
                         <figcaption class="product">
                             <h3>귀상어 업사이클링 키링</h3>
@@ -366,60 +360,62 @@
                                 <li class="order">주문폭주</li>
                             </ul>
                         </figcaption>
-                     </a>
-                  </figure>
-             </article>
+                    </a>
+                </figure>
+            </article>
 
-                <nav class="left_right_btn">
-                    <div class="left_slide_btn"><a href="">-</a></div>
-                    <div class="right_slide_btn"><a href="">-</a></div>
-            </nav>
+            
         </section>
 
         <section class="magazine">
-             <section class="slide_product">
-            <h2>매거진</h2>
+            <section class="slide_product">
+                <h2>매거진</h2>
+            <h3><a href="">더보기</a></h3>
 
-            <article class="img_text_four_box">
+                <article class="img_text_four_box">
 
-                <figure>
-                    <a href="./magazine_stone.html">
-                        <div>
-                            <img src="./img/product_img/megazine/stone/stone_global_warming.png" alt="돌__지구온난화" width="339px" height="339px">
-                        </div>
-                    </a>
-                </figure>
+                    <figure>
+                        <a href="./magazine_stone.html">
+                            <div>
+                                <img src="./img/product_img/megazine/stone/stone_global_warming.png" alt="돌__지구온난화"
+                                    width="339px" height="339px">
+                            </div>
+                        </a>
+                    </figure>
 
-                <figure>
-                    <a href="">
-                        <div>
-                            <img src="./img/product_img/megazine/five/earth_5protect.png" alt="지구를 지키는 5가지" width="339px" height="339px">
-                        </div>
-                    </a>
-                </figure>
+                    <figure>
+                        <a href="">
+                            <div>
+                                <img src="./img/product_img/megazine/five/earth_5protect.png" alt="지구를 지키는 5가지"
+                                    width="339px" height="339px">
+                            </div>
+                        </a>
+                    </figure>
 
-                <figure>
-                    <a href="">
-                        <div>
-                            <img src="./img/product_img/megazine/future/Global_warming1.png" alt="지구온난화의 미래 예측" width="339px" height="339px">
-                        </div>
-                    </a>
-                </figure>
+                    <figure>
+                        <a href="">
+                            <div>
+                                <img src="./img/product_img/megazine/future/Global_warming1.png" alt="지구온난화의 미래 예측"
+                                    width="339px" height="339px">
+                            </div>
+                        </a>
+                    </figure>
 
-                <figure>
-                    <a href="">
-                        <div>
-                            <img src="./img/product_img/megazine/sleepbear/polarbear_sleeps_on_Ice.png" alt="유기농 우엉차" width="339px" height="339px">
-                        </div>
-                     </a>
-                  </figure>
-             </article>
-        </section>
+                    <figure>
+                        <a href="">
+                            <div>
+                                <img src="./img/product_img/megazine/sleepbear/polarbear_sleeps_on_Ice.png"
+                                    alt="유기농 우엉차" width="339px" height="339px">
+                            </div>
+                        </a>
+                    </figure>
+                </article>
+            </section>
     </main>
-            
-    
 
-              <!-- footer -->
+
+
+    <!-- footer -->
     <footer>
         <div class="footer_top">
             <div class="f_top">
@@ -431,50 +427,64 @@
                 </ul>
             </div>
 
-                <article class="four_btn">
-                        <div class="f_top_btn">
-                            <div class="notice_btn"><a href="./notice.html">공지사항</a></div>
-                            <div class="faq_btn"><a href="">FAQ</a></div>
-                        </div>
-
-                        <div class="contact_btn">
-                            <div class="one_btn"><a href="">1:1문의</a></div>
-                            <div class="every_btn"><a href="">이용약관</a></div>
-                        </div>
-                </article>
-    </div>
-
-            <div class="bottom_line"></div>
-
-            <div class="footer_bottom">
-                <div class="f_bottom">
-                    <ul>
-                        <li><b>지구와나</b> | 대표자 : 홍지윤 | 이메일 earthandme@earthandme.co </li>
-                        <li><b>사업자번호</b> : 123-45-67890 | 통신판매신고 : 2025-서울강서-1234 [사업자등록조회]</li>
-                        <li><b>사업장주소</b> : 서울시 상계동 340-6</li>
-                        <li><b>기업제휴/개인정보처리</b> : 홍지윤 earthandme@earthandme.co </li>
-                        <li class="copyright">Copyright © 2025 EarthAndMe.All rights reserved.</li>
-                    </ul>
+            <article class="four_btn">
+                <div class="f_top_btn">
+                    <div class="notice_btn"><a href="./notice.html">공지사항</a></div>
+                    <div class="faq_btn"><a href="">FAQ</a></div>
                 </div>
 
+                <div class="contact_btn">
+                    <div class="one_btn"><a href="">1:1문의</a></div>
+                    <div class="every_btn"><a href="">이용약관</a></div>
+                </div>
+            </article>
+        </div>
 
-                
-    
+        <div class="bottom_line"></div>
+
+        <div class="footer_bottom">
+            <div class="f_bottom">
+                <ul>
+                    <li><b>지구와나</b> | 대표자 : 홍지윤 | 이메일 earthandme@earthandme.co </li>
+                    <li><b>사업자번호</b> : 123-45-67890 | 통신판매신고 : 2025-서울강서-1234 [사업자등록조회]</li>
+                    <li><b>사업장주소</b> : 서울시 상계동 340-6</li>
+                    <li><b>기업제휴/개인정보처리</b> : 홍지윤 earthandme@earthandme.co </li>
+                    <li class="copyright">Copyright © 2025 EarthAndMe.All rights reserved.</li>
+                </ul>
+            </div>
+
+
+
+
             <article class="sns_btn">
                 <div class="logo_btn">
                     <a href=""><img src="./img/header/logo.png" alt="로고 버튼"></a>
                 </div>
                 <div class="kakao_btn">
-                    <a href="./kakaoacount.html"><img src="./img/footer/kakao.png" alt="카카오 버튼" ></a>
+                    <a href="./kakaoacount.html"><img src="./img/footer/kakao.png" alt="카카오 버튼"></a>
                 </div>
                 <div class="insta_btn">
-                    <a href=""><img src="./img/footer/insta.jfif" alt="인스타 버튼" ></a>
+                    <a href=""><img src="./img/footer/insta.jfif" alt="인스타 버튼"></a>
                 </div>
                 <div class="blog_btn">
-                    <a href=""><img src="./img/footer/naverblog.jfif" alt="블로그 버튼" ></a>
+                    <a href=""><img src="./img/footer/naverblog.jfif" alt="블로그 버튼"></a>
                 </div>
             </article>
         </div>
     </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+    </script>
 </body>
+
 </html>
